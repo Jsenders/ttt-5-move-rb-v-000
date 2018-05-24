@@ -13,5 +13,5 @@ user_input.to_i - 1
 end
 
 def move(board, index, character = "X")
-  binding.pry
+  board[index] = character 
 end
